@@ -1,5 +1,5 @@
-# TERRAFORM
-Terraform Deployment of VPC, Subnet, and EC2 on AWS
+# Terraform Project
+In this project, I used Terraform to Deploy VPC, Subnets, and EC2 on AWS
 This repository contains Terraform code for deploying a Virtual Private Cloud (VPC) with a public subnet, a private subnet, and an EC2 instance on AWS. This is a quick and easy way to spin up a new environment in AWS for testing, development or production purposes.
 
 # Prerequisites
