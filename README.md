@@ -26,13 +26,16 @@ cd Terra-project`
 3. Customize the variables in `variables.tf` and `main.tf` according to your requirements. You can modify the VPC CIDR block, subnets, EC2 instance type, etc.
 
 4. Plan the Terraform deployment:
+
  `terraform plan`
 
 5. If the plan looks good, apply the Terraform deployment:
 
  `terraform apply`
 
+
 6. Once the deployment is complete, you can SSH into the EC2 instance using the public IP address.
+
 
 7. To destroy the environment when you're done, run:
 
@@ -45,7 +48,9 @@ This repository contains the following files:
 
 `variables.tf`: Defines the variables used in the main.tf configuration file.
 
-README.md: This file.
+`README.md`: This file.
+
 
 Contributing
+
 If you find any issues or would like to contribute to this project, please open an issue or a pull request on GitHub.
