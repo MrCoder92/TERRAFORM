@@ -16,28 +16,27 @@ To use this Terraform code, follow these steps:
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/<YOUR-GITHUB-USERNAME>/Terra-project.git
-cd Terra-project
+`git clone https://github.com/<YOUR-GITHUB-USERNAME>/Terra-project.git
+cd Terra-project`
 
 2. Initialize the Terraform backend by running the following command:
  
-terraform init
+ `terraform init`
 
-3. Customize the variables in `variables.tf` according to your requirements. You can modify the VPC CIDR block, subnets, EC2 instance type, etc.
+3. Customize the variables in `variables.tf` and `main.tf` according to your requirements. You can modify the VPC CIDR block, subnets, EC2 instance type, etc.
 
 4. Plan the Terraform deployment:
-
-terraform plan
+ `terraform plan`
 
 5. If the plan looks good, apply the Terraform deployment:
 
-terraform apply
+ `terraform apply`
 
 6. Once the deployment is complete, you can SSH into the EC2 instance using the public IP address.
 
 7. To destroy the environment when you're done, run:
 
-terraform destroy
+ `terraform destroy`
 
 # Files
 This repository contains the following files:
